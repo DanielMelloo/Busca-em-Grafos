@@ -8,26 +8,25 @@ import matplotlib.pyplot as plt
 def dfs(grafo, inicio, objetivo):
     visitados = set()
     caminho = []
-    def dfs(vertice):
-        nonlocal caminho
     
+    def dfs_visit(vertice):
+        nonlocal caminho
         visitados.add(vertice)
         caminho.append(vertice)
-        
+
         if vertice == objetivo:
             return True
-        
+
         for vizinho in grafo[vertice]:
             if vizinho not in visitados:
-                if dfs(vizinho):
+                if dfs_visit(vizinho):
                     return True
-        
+
         caminho.pop()
-        
+
         return False
     
-    dfs(inicio)
-    
+    dfs_visit(inicio)
     return caminho
 
 def bfs(grafo, inicio, objetivo):
