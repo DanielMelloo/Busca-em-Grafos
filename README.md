@@ -141,24 +141,37 @@ plotar_grafo(grafo)
 plt.show()
 ```
 
-<!-- 
-## Screenshots
-
-![Grafo](https://cdn.discordapp.com/attachments/1110659107913990184/1110659303024636004/Grafo.png)
-![Inicialização](https://media.discordapp.net/attachments/1110659107913990184/1110659302177374308/Inicializacao.png)
-![Plot](https://media.discordapp.net/attachments/1110659107913990184/1110659302613602394/Plot.png ) -->
-
 ## Screenshots
 
 <img src="https://cdn.discordapp.com/attachments/1110659107913990184/1110659303024636004/Grafo.png" ">
+
+### Definição de um grafo com arestas direcionadas e não direcionadas
+
 <img src="https://media.discordapp.net/attachments/1110659107913990184/1110659302177374308/Inicializacao.png" alt="Inicialização" style="max-width: 500px;">
+
+### Inicialização de variáveis
+
 <img src="https://media.discordapp.net/attachments/1110659107913990184/1110659302613602394/Plot.png" alt="Plot" style="max-width: 500px;">
+
+### Plotando o grafo
+
+<img src="https://cdn.discordapp.com/attachments/1110659107913990184/1110662567778603148/grafo.jpg" alt="Grafo" style="max-width: 500px;">
+
+
+### Resultado do grafo
+
+<img src="https://cdn.discordapp.com/attachments/1110659107913990184/1110663030418714654/caminho.jpg" alt="Grafo" style="max-width: 500px;">
+
+### Caminho encontrado em DFS e BFS
+
 
 ## Relacionados
 
 Segue alguns projetos relacionados
 
-[Awesome README](https://github.com/matiassingers/awesome-readme)
+[Arvore Binária Com Algoritmo DSW](https://github.com/DanielMelloo/Arvore-Binaria-DSW)
+
+[Filas Listas e Pilhas](https://github.com/DanielMelloo/Filas-Listas-e-Pilhas)
 
 
 ## Autores
