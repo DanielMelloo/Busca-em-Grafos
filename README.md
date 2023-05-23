@@ -143,7 +143,7 @@ plt.show()
 
 ## Screenshots
 
-<img src="https://cdn.discordapp.com/attachments/1110659107913990184/1110659303024636004/Grafo.png" ">
+<img src="https://cdn.discordapp.com/attachments/1110659107913990184/1110659303024636004/Grafo.png">
 
 ### Definição de um grafo com arestas direcionadas e não direcionadas
 
