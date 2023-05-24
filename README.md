@@ -34,6 +34,22 @@ Para utilizar este código, siga os passos abaixo:
 
 Para especificar o vértice de início e o vértice objetivo, você pode utilizar a função `encontrar_enesimo_termo(grafo, n)`, que retorna o n-ésimo vértice do grafo. Alternativamente, você pode simplesmente utilizar a chave do vértice diretamente.
 
+## Estrutura de Dados para Representar o Caminho Encontrado
+
+O caminho encontrado é representado como uma lista de vértices no código fornecido. Cada elemento da lista corresponde a um vértice visitado ao percorrer o grafo. Essa abordagem permite armazenar e manipular o caminho de forma simples e eficiente.
+
+Por exemplo, considerando o seguinte caminho encontrado: `'A' -> 'B' -> 'C' -> 'D'`. Ele é representado pela seguinte lista:
+
+```python
+caminho = ['A', 'B', 'C', 'D']
+```
+
+Nesse caso, 'A' é o vértice inicial do caminho, seguido por 'B', 'C' e finalmente 'D', que é o vértice de destino.
+
+Ao utilizar uma lista de vértices, podemos facilmente iterar sobre o caminho, acessar cada vértice individualmente e realizar operações adicionais, se necessário. Essa estrutura de dados simples e flexível é adequada para a maioria dos casos de uso de busca em grafos.
+
+No entanto, é importante lembrar que essa é apenas uma das possíveis estruturas de dados para representar o caminho encontrado. Dependendo das suas necessidades específicas, você pode optar por outras estruturas, como uma lista de tuplas (vértice, aresta) ou até mesmo um objeto personalizado que ofereça propriedades e métodos adicionais relacionados ao caminho.
+
 ### Requisitos
 
 - NetworkX: Biblioteca para manipulação e visualização de grafos.
